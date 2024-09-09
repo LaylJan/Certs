@@ -1,19 +1,143 @@
+<style>
+  /* Default styles for larger screens */
+  #navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+
+  .nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .nav-link {
+      margin: 5px 0;
+    }
+  }
+</style>
+
 <main id="main-doc">
   How to use Facebook
-  
-  <section class="main-section">
-    <header id="JavaScript_and_Java">Download Facebook</header>
+  <nav id="navbar">
+    <header>This docu is how to use Facebook</header>
+    <a href="#Download_Facebook" class="nav-link">Download Facebook</a> |
+    <a href="#Post_a_picture" class="nav-link">Post a picture</a> |
+    <a href="#Comment" class="nav-link">Comment</a> |
+    <a href="#React" class="nav-link">React</a> |
+    <a href="#Share" class="nav-link">Share</a> |
+    <a href="#Live" class="nav-link">Live</a>
+  </nav>
+
+  <section class="main-section" id="Download_Facebook">
+    <header id="Download_Facebook">Download Facebook</header>
+    <p>
+      To get started, visit the official Facebook website or download the
+      Facebook app from your device's app store.
+    </p>
+    <p>
+      Follow the installation instructions provided by the app store or website.
+    </p>
+    <p>
+      Example: On iOS, open the <code>App Store</code> and search for
+      "Facebook."
+    </p>
+    <li>
+      Go to the <code>Google Play Store</code> or <code>Apple App Store</code>.
+    </li>
+    <li>Search for <code>Facebook</code>.</li>
+    <li>Click <code>Install</code> or <code>Get</code>.</li>
+    <li>Open the app and sign in with your credentials.</li>
+    <li>Follow the setup steps provided by the app.</li>
   </section>
- <section class="main-section">
-    <header id="JavaScript_and_Java">Post a picture</header>
-    <li></li>
-  </section><section class="main-section">
-    <header id="JavaScript_and_Java">Comment</header>
-  </section><section class="main-section">
-    <header id="JavaScript_and_Java">React</header>
-  </section><section class="main-section">
-    <header id="JavaScript_and_Java">Share</header>
-  </section><section class="main-section">
-    <header id="JavaScript_and_Java">Live</header>
+
+  <section class="main-section" id="Post_a_picture">
+    <header id="Post_a_picture">Post a picture</header>
+    <p>
+      To post a picture, click on the <code>Photo/Video</code> button on your
+      timeline.
+    </p>
+    <p>Select the photo you want to upload from your device.</p>
+    <li>Click on <code>Create Post</code>.</li>
+    <li>Select <code>Photo/Video</code> from the options.</li>
+    <li>Choose the image you want to upload.</li>
+    <li>Add a caption or tag friends if needed.</li>
+    <li>Click <code>Post</code> to share it.</li>
+  </section>
+
+  <section class="main-section" id="Comment">
+    <header id="Comment">Comment</header>
+    <p>
+      To comment on a post, click on the <code>Comment</code> button below the
+      post.
+    </p>
+    <p>
+      Type your comment in the provided text box and press <code>Enter</code> or
+      click the "Post" button.
+    </p>
+    <li>Find the post you want to comment on.</li>
+    <li>Click the <code>Comment</code> field under the post.</li>
+    <li>Type your message in the comment box.</li>
+    <li>Use <code>@</code> to mention someone.</li>
+    <li>Press <code>Enter</code> to post the comment.</li>
+  </section>
+
+  <section class="main-section" id="React">
+    <header id="React">React</header>
+    <p>
+      To react to a post, hover over the <code>Like</code> button to see various
+      reactions like Love, Haha, Wow, Sad, or Angry.
+    </p>
+    <p>Click on the reaction you want to use.</p>
+    <li>Hover over the <code>Like</code> button on a post.</li>
+    <li>Select the reaction emoji that represents your response.</li>
+    <li>Click on the reaction to confirm your choice.</li>
+    <li>You can change your reaction by repeating the above steps.</li>
+    <li>Use reactions to engage with content quickly.</li>
+  </section>
+
+  <section class="main-section" id="Share">
+    <header id="Share">Share</header>
+    <p>To share a post, click the <code>Share</code> button below the post.</p>
+    <p>
+      Choose where you want to share it: on your timeline, in a group, or with
+      specific friends.
+    </p>
+    <li>Find the post you want to share.</li>
+    <li>Click the <code>Share</code> button beneath the post.</li>
+    <li>
+      Choose the sharing option: <code>Share Now</code>,
+      <code>Share to Story</code>, or <code>Send in Messenger</code>.
+    </li>
+    <li>Add any additional text or tags if desired.</li>
+    <li>Click <code>Post</code> to share the post.</li>
+  </section>
+
+  <section class="main-section" id="Live">
+    <header id="Live">Live</header>
+    <p>
+      To go live, click the <code>Live Video</code> button on your timeline or
+      in the status update section.
+    </p>
+    <p>
+      Set up your live video by adding a description and choosing your audience.
+    </p>
+    <li>Click on <code>Go Live</code> in the Facebook app.</li>
+    <li>Allow access to your camera and microphone.</li>
+    <li>Add a title and description for your live video.</li>
+    <li>
+      Choose your audience: <code>Public</code>, <code>Friends</code>, or
+      <code>Only Me</code>.
+    </li>
+    <li>Click <code>Start Live Video</code> to begin broadcasting.</li>
   </section>
 </main>
